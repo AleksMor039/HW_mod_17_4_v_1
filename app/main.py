@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
-# from app.models import task, user
+from models import task, user
 from routers import task
 from routers import user
 from backend.db import engine, Base
